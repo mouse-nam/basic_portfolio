@@ -1,0 +1,8 @@
+git config --global user.name "mouse-nam"
+git config --global user.email "mitu.bauet@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+git add .
+git branch
+git commit -am "git init"

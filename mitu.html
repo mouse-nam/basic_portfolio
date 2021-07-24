@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  padding-left: 650px;
+  background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(182, 64, 64);
+  color: rgb(247, 247, 247);
+}
+
+.topnav a.active {
+  background-color: #fafcfb;
+  color: rgb(0, 0, 0);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  padding-top:20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid rgb(95, 90, 90);
+}
+h1{
+  color: rgb(28, 26, 106);
+}
+h2{
+  color:rgb(224, 88, 88)
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.ptex{
+  padding-left: 300px;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.photo{
+  padding-top: 100px;
+  padding-left: 125px;
+}
+.img{
+  padding-right:300px;
+}
+.img2{
+  padding-left:250px;
+}
+.txt{
+  padding-top: 200px;
+  padding-left: 250px;
+}
+.txt2{
+  padding-top: 200px;
+  padding-left: 50px;
+}
+.footer{
+  padding-right: 75px;
+  padding-left: 325px;
+}
+.button {
+  background-color: #d8622b; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button4 {border-radius: 12px;}
+
+</style>
+</head>
+<body>
+  <div class="container">
+  <div class="topnav">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+ 
+<div class="row">
+  <div class="column">
+    <div class="txt">
+    <h1 >HELLO I'M</h1>
+    <h2>Rob Davidson</h2>
+    <p>A full stack all around designer that placeratin <br>massa consectetur</p>
+    <button class="button button4">Hire me</button>
+  </div>
+</div>
+  <div class="column">
+    <img class="img"src="images/do.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <div class="tx2">
+      <img class="img2"src="images/do not use this pic2.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
+  <div class="column">
+    <div class="txt2">
+    <h1 class="about">About</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and 
+      typesetting industry. Lorem Ipsum has been the industry's 
+      standard dummy text ever since the 1500s, when an unknown 
+      printer took a galley of type and scrambled it to make a type 
+      specimen book</p>
+      <button class="button button4">Download CV</button>
+  </div>
+</div>
+</div>
+<div class="photo">
+  <h2 class="ptex">LASTET WORKING PROJECT </h2>
+<div class="gallery">
+    <img src="images/image 4.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+    <img src="images/image 5.png" alt="Forest" width="6000" height="1000">
+  </a>
+</div>
+
+<div class="gallery">
+    <img src="images/image 8.png" alt="Northern Lights" width="600" height="400">
+  </a>
+</div>
+</div>
+
+<div class="footer">
+  <img src="images/middle.png" alt="Northern Lights" width="600" height="400">
+
+</div>
+</div>
+</body>
+</html>
